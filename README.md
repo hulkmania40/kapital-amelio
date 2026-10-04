@@ -1,21 +1,14 @@
-# React + TypeScript + Vite + shadcn/ui
+# Kapital Amelio
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Modern Vite + React + TypeScript landing page for Kapital Amelio.
 
-## Adding components
+## Landing page notes
 
-To add components to your app, run the following command:
+- Section components live in `src/components/landing/`.
+- Shared shadcn-style primitives live in `src/components/ui/`.
+- Brand tokens are defined in `src/index.css` under `@theme inline` and `:root`:
+  `brand-navy`, `brand-gold`, and `brand-cream`.
+- Replace placeholder copy in the section files directly.
+- Swap placeholder visuals in `Hero.tsx`, `WhyKapitalAmelio.tsx`, and
+  `Testimonial.tsx`. No external images are currently used.
 
-```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
